@@ -1,0 +1,40 @@
+body{
+    font-family: 'Inconsolata', monospace;
+    margin-left: 20%; margin-right: 20%;
+    }
+
+
+h1{ font-size: 5em;}
+h2{ font-size: 2em;}
+
+
+div {
+    width: 1000px;
+    border: 15px solid purple;
+    padding:70px;
+    margin: 100px;
+  }
+
+
+  .sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 15px;
+    color:black;
+    display: block;
+  }
+  
+  .sidenav a:hover {
+    color: #c462ab;
+  }
+
+  .sidenav {
+    height: auto; 
+    width: 80px; 
+    position: fixed; 
+    z-index: 2; 
+    top: 0; 
+    left: 0;
+    overflow-x: hidden; 
+    padding-top: 20px;
+  }
